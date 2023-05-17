@@ -18,7 +18,7 @@ timeline.push(start_instructions);
 var trial_timeline = [];
 
 // Load the CSV file
-Papa.parse("material/list1.csv", {
+Papa.parse("https://github.com/timeasarvas/ATB_G1/tree/main/material/list1.csv", {
   header: true,
   download: true,
   complete: function(results) {
